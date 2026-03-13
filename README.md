@@ -34,7 +34,7 @@
 спасибо @nikk, @Denis
 
 ```bash
-curl -L -k -s https://lampac.sh | bash
+curl -L -k -s https://raw.githubusercontent.com/lampac-talks/lampac/main/install.sh | bash
 ```
 
 * Минимальные требования: 1 CPU, 1GB RAM, 2GB HDD
@@ -46,7 +46,7 @@ curl -L -k -s https://lampac.sh | bash
 # Домашняя (облегченная) - linux
 
 ```bash
-curl -L -k -s https://lampac.sh/home | bash
+curl -L -k -s https://raw.githubusercontent.com/lampac-talks/lampac/main/install_home.sh | bash
 ```
 
 * Минимальные требования: 1 CPU, 500Mb RAM, 1GB HDD
