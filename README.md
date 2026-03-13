@@ -29,6 +29,12 @@
 
 [![DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lampac-talks/lampac)
 
+# Удаление lampac с Linux
+
+```
+sudo systemctl stop lampac && sudo rm -rf /home/lampac /etc/lampac /etc/systemd/system/lampac.service && sudo crontab -l | grep -v 'lampac' | sudo crontab - && sudo systemctl daemon-reload
+```
+
 # Установка на linux
 
 спасибо @nikk, @Denis
